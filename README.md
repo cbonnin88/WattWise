@@ -26,3 +26,14 @@ A real-world A/B test scenario in which a "Smart Charging" AI feature is tested 
    ```bash
    git clone [https://github.com/cbonnin88/wattwise-ab-analysis.git](https://github.com/cbonnin88/wattwise-ab-analysis.git)
    cd wattwise-ab-analysis
+
+
+## 🧪 Methodology
+### Outlier Handling
+To maintain accuracy, the app uses the Z-Score method. For a normal distribution, 99.7% of data falls within 3 standard deviations. Any data point exceeding this threshold is flagged as an anomaly and removed from the statistical calculations.
+
+
+
+### Revenue Projection
+Revenue is calculated using the formula:
+`Revenue = Engagement (Hours) * Charging Speed (7.4 kWh) * Energy Price (€/kWh)`

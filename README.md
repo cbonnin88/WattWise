@@ -24,5 +24,5 @@ A real-world A/B test scenario in which a "Smart Charging" AI feature is tested 
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/yourusername/greentech-ab-analysis.git](https://github.com/yourusername/greentech-ab-analysis.git)
-   cd greentech-ab-analysis
+   git clone [https://github.com/cbonnin88/wattwise-ab-analysis.git](https://github.com/cbonnin88/wattwise-ab-analysis.git)
+   cd wattwise-ab-analysis
